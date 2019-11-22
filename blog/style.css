@@ -1,0 +1,170 @@
+.navbar{
+  background-color:black;
+  border-color: black;
+}
+.photo{
+  max-width:90%;
+  position:justify;
+  border-radius:30px;
+  margin-top:30px;
+  margin-bottom:inherit;
+}
+.heading{
+  padding-top:8px;
+  padding-bottom:50px;
+
+}
+.logo{
+      font-size:30px;
+      color:white;
+      padding-left:10px;
+      font-family: lucida handwriting;
+    }
+.motto{
+  display:inline;
+  color:white;
+  padding-left:10px;
+  font-size:14px;
+  line-height:12px;
+  font-family: lucida handwriting;
+}
+.links{
+  padding-top:8px;
+  padding-left:40px;
+}
+.nav a: active{
+  color:white;
+}
+a: visited{
+  color:grey;
+}
+.medialinks{
+  padding-top:24px;
+  float:right;
+  color:white;
+}
+.sub{
+  float:right;
+}
+.body{
+  font-family: lucida handwriting;
+}
+p{
+  padding:150px;
+  padding-top:0px;
+  padding-bottom:0px
+}
+i{
+  display:inline;
+}
+.articlejumbo{
+      float:left;
+    }
+.textjumbo{
+      padding-left:20px
+    }
+
+    #jumbo{
+      background-color:#ddd;
+      height:190px;
+      border-radius:0px;
+    }
+    #jumbo h3{display:inline;}
+    #jumbo h6{display:inline;}
+    #jumbo a{text-decoration:none;
+            color:#800000;
+    }
+.buton{
+  margin-top:18px;
+  padding:1px;
+  background-color:#e60000;
+  color:white;
+  border-radius:6px;
+  border-color:#e60000;
+  border-style:solid;
+}
+hr{
+    width:300px;
+    border-color:#33000;
+      }
+      .articlejumbo{
+            float:left;
+          }
+      .textjumbo{
+            padding-left:20px
+          }
+
+          #jumbo{
+            background-color:#ddd;
+            height:190px;
+            border-radius:0px;
+          }
+
+          #jumbo h3{display:inline;}
+          #jumbo h6{display:inline;}
+          #jumbo a{text-decoration:none;
+                  color:#800000;
+          }
+          hr{
+            width:450px;
+            border-color:#33000;
+          }
+          #signup form{width:300px; margin-left:80px;}
+          #signup fieldset{padding:10px; margin-top:20px}
+          #comment form{margin-left:80px}
+          #comment fieldset{padding:10px; margin-top:20px}
+#read {
+  text-align: right;
+}
+#footer{
+  border-radius:0px;
+}
+#footer a{
+  border-radius:0px;
+  margin:0px;
+  text-decoration:none;
+  text-align:right;
+  color:white
+}
+#footer p{
+  padding-left:5px;
+  display:inline;
+  color:white;
+}
+#footer button{
+  margin-left:50px;
+  margin-top: 15px
+}
+#slider hr{
+  width:350px;
+}
+#slider h2{
+  line-height:0.02px;
+}
+#slider h4{
+  line-height:0.02px;
+}
+#content hr{
+  width:300px;
+  border-color:#33000
+}
+#content a{
+  text-decoration:none;
+  color:#800000;
+}
+#space span{
+  background-color:#ddd;
+  padding:50px;
+  width:1200px;
+}
+[class*="col-xs-12"]{
+  width:100%;
+}
+
+@media only screen and (min-width:1200px){
+  .col-lg-6{width:50%}
+  .carousel-caption p{font-size:30px}
+}
+ @media only screen and (max-width:992px){
+        .carousel-caption p{font-size:15px; display:block}
+}
